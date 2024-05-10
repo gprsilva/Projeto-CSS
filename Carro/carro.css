@@ -1,0 +1,110 @@
+*{margin: 0;
+    padding: 0;}
+    
+    body{display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:darkgreen;}
+    
+    .container{display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:grey;
+        width: 100%;
+        height: 40%;
+        border-style: solid;
+        border-color: white;
+        border-left: solid transparent;
+        border-right: solid transparent;
+    z-index: -1;}
+    
+    hr{border-color: rgb(237, 254, 0);
+    width: 100%;
+    border-style:double;
+    z-index: 0;}
+    
+    .carcaça{
+    background-color: orangered;
+        border-bottom-left-radius: 5%;
+        border-top-left-radius: 40%;
+        border-bottom-right-radius: 10%;
+        border-top-right-radius: 40%;
+        height: 120px;
+        width: 450px;
+        position: absolute;
+        z-index: 1;
+        clip-path: polygon(61% 0, 71% 39%, 100% 48%, 100% 88%, 100% 100%, 0 100%, 0 48%, 14% 39%, 24% 0);
+    border-color: black;
+    border-style: solid;
+        }
+    
+    .janela{border-bottom: 120px solid black;
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-bottom-left-radius: 5%;
+        border-top-left-radius: 40%;
+        border-bottom-right-radius: 10%;
+        border-top-right-radius: 40%;
+        height: 0;
+        width: 260px;
+        position: absolute;
+        z-index: 2;
+        margin-top: 10px;
+        margin-left: -20px;
+        clip-path:polygon(45% 0, 64% 0, 74% 33%,12% 34%, 22% 0)
+    }
+    
+    .motor{width: 60px;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    z-index: 6;
+    clip-path: polygon(0 43%, 88% 26%, 90% 47%, 60% 52%, 57% 70%, 80% 71%, 78% 93%, 15% 91%, 12% 76%, 36% 73%, 25% 56%, 0 59%);
+    margin-left: 330px;
+    margin-top: -66px;
+    }
+    
+    .roda1{width: 70px;
+        height: 70px;
+        background-color: black;
+        position: absolute;
+        z-index: 6;
+    clip-path: circle();
+    margin-top: 130px;
+    margin-right: 240px;}
+    
+    .calota1{width: 40px;
+        height: 40px;
+        background-color: grey;
+        position: absolute;
+        z-index: 7;
+    clip-path: circle();
+    margin-top: 130px;
+    margin-right: 240px;}
+    
+    .roda2{width: 70px;
+        height: 70px;
+        background-color: black;
+        position: absolute;
+        z-index: 6;
+    clip-path: circle();
+    margin-top: 130px;
+    margin-left: 240px;}
+    
+    .calota2{width: 40px;
+        height: 40px;
+        background-color: grey;
+        position: absolute;
+        z-index: 7;
+    clip-path: circle();
+    margin-top: 130px;
+    margin-left: 240px;}
+    
+    .farol{width: 20px;
+        height: 20px;
+        background-color: gold;
+        position: absolute;
+        z-index: 8;
+        clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 69%, 80% 90%, 50% 100%);
+    margin-top: 15px;
+    margin-left: 449px;}

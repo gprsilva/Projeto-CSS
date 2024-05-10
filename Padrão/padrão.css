@@ -1,0 +1,128 @@
+*{margin: 0;
+padding: 0;}
+body{background-color: wheat;}
+
+/* navbar */
+
+.hi{
+    background-color: rgb(71, 11, 20);
+    color:white;
+    height: 60px;
+    }
+h1{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* barra de pesquisa */
+
+#divBusca{
+    background-color:#ffffff;
+    border:solid rgb(71, 11, 20);
+    border-radius:10px;
+    width:261px;
+    height:32px;
+    float: right;
+    margin-right: 50px;
+  
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float: left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:rgb(71, 11, 20);
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    
+  }
+
+/* layout do body */
+  
+.postagens{display: flex;
+  justify-content: start;
+  background-color: beige;
+  margin: 0;
+  padding: 0;
+    border-style: solid;
+    border-color:rgb(71, 11, 20) ;
+    height: 25rem;
+    width: 70%;
+    margin-top: 7%;
+    margin-left: 4%;
+    border-radius: 2%;
+  }
+
+  .postagens:hover{transform: scale(1.01);}
+
+  .imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height:300px;
+    width: 90rem;
+    padding-top:10px;
+    padding-left: 10px;
+    background-color: rgb(71, 11, 20);
+    z-index: 0;
+  }
+
+.postagens h2{display: flex;
+  position: absolute;
+  align-self: flex-end;
+  margin-bottom: 60px;
+  color:  rgb(71, 11, 20);
+  z-index: 1;
+  margin-left: 7px;
+}
+
+.postagens p{display: flex;
+  position: absolute;
+  align-self: flex-end;
+  z-index: 1;
+  margin-bottom: 40px;
+  margin-left: 7px;
+}
+
+.anuncio{display: flex;
+float: right;
+align-items:center;
+position: absolute; 
+height: 56.5rem;
+z-index: 2;
+width: 23%;
+background-color: rgb(71, 11, 20);
+left: 76%;
+top: 21%;
+border-radius: 2%;}
+
+.des{
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  color: white;
+}
+
+/* CRIANDO O RODAPE */
+
+.rodape{display: flex;
+  justify-content: center;
+  align-self: flex-end;
+  align-items: center;
+  color: white;
+  background-color:rgb(71, 11, 20) ;
+  width: 100%;
+  height: 10rem;}
